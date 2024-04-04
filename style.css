@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas Neue', Arial;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #2E3192, #1BFFFF);
+  padding: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.RPS-game {
+  width: 100%;
+  max-width: 540px;
+  background: white;
+  margin: 10px auto 20px;
+  padding: 40px 30px 50px;
+  border-radius: 10px;
+  border-style: solid;
+  text-align:  center;
+}
+
+.RPS-game h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.RPS-game h2 img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.rps-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.btn1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: #fdee21;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: #f15a25;
+  cursor: pointer;
+}
+
+.btn3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: #01a99c;
+  cursor: pointer;
+}
+
+.btn1 img,
+.btn2 img,
+.btn3 img {
+  width: 50px;
+}
+
+.center_text {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.center_text_res {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.reset-and-Autoplaybtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.gameSettings {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: solid;
+  background: red;
+  color: white;
+  align-items: center;
+  margin-top: 50px;
+}
