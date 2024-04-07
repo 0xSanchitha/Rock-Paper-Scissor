@@ -17,7 +17,7 @@
 
 .RPS-game {
   width: 100%;
-  max-width: 540px;
+  max-width: 640px;
   background: white;
   margin: 10px auto 20px;
   padding: 40px 30px 50px;
@@ -30,10 +30,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .RPS-game h2 img {
-  width: 40px;
+  width: 70px;
   margin-left: 10px;
 }
 
@@ -41,30 +42,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
 }
 
 .btn1 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100px;
   background: #fdee21;
   cursor: pointer;
 }
 
 .btn2 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100px;
   background: #f15a25;
   cursor: pointer;
 }
 
 .btn3 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100px;
   background: #01a99c;
   cursor: pointer;
@@ -73,17 +74,17 @@
 .btn1 img,
 .btn2 img,
 .btn3 img {
-  width: 50px;
+  width: 70px;
 }
 
 .center_text {
   text-align: center;
   padding-top: 30px;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .center_text_res {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   padding-top: 30px;
 }
@@ -99,12 +100,13 @@
 }
 
 .gameSettings {
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
+  width: 200px;
+  height: 70px;
+  border-radius: 50px;
   border-style: solid;
   background: red;
   color: white;
   align-items: center;
   margin-top: 50px;
+  font-size: 25px;
 }
